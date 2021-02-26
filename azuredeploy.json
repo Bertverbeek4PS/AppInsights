@@ -39,7 +39,7 @@
       "properties": {
         "mode": "Incremental",
         "templateLink": {
-          "uri": "[uri(deployment().properties.templateLink.uri, 'DashboardTemplate.json')]"
+          "uri": "[uri(deployment().properties.templateLink.uri, 'https://raw.githubusercontent.com/Bertverbeek4PS/AppInsights/main/Dashboard_Template.json')]"
         },
         "parameters": {
           "subscriptionid": { "value": "[variables('subscriptionid')]" },
